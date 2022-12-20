@@ -71,6 +71,7 @@
     font-size: 48px;
     font-weight: 800;
     font-family: 'Raleway-Regular'; 
+    max-width: 600px;
 }
 
 .header_one_two {

@@ -32,6 +32,9 @@
         font-size: 25px;
         margin: 10px;
     }
+    .header{
+        height: auto;
+    }
     .header_one{
         margin: 20px;
     }
@@ -55,6 +58,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: auto;
         max-width: 500px;
     }
     .h1-final{
