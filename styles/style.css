@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
 }
 
+
 @font-face {
     src: url(font/Qatar2022-Bold.otf);
     font-family: 'Raleway-Regular';    
@@ -181,6 +182,7 @@
     font-style: italic;
     font-family: 'Raleway-Regular'; 
     display: flex;
+    max-width: 560px;
  }
 
  .p_campeao2 {
@@ -212,6 +214,7 @@
     background-color: #3882f6;
     color: #e5e7eb;
     width: 1300px;
+    width: auto;
     height: 180px;
     display: flex;
     align-items: center;

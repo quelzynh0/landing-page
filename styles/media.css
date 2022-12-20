@@ -19,15 +19,18 @@
     .quote{
         align-items: center;
         flex-direction: column;
+        height: auto;
     }
     .quote_information{
         align-items: center;
         flex-direction: column;
-        max-width: 500px;
-        
+        max-width: 300px;
+        height: auto;
+        margin: 20px 40px;
     }
     .p_campeao1{
         font-size: 25px;
+        margin: 10px;
     }
     .header_one{
         margin: 20px;
