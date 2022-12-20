@@ -41,15 +41,12 @@
     }
     .texto_informacoes{
         margin-left: -20px;
+        text-align: center;
     }
-    .segunda_informacao{
-        display: none;
-    }
-    .terceira_informacao{
-        display: none;
-    }
-    .quarta_informacao{
-        display: none;
+    .titulo_informacoes{
+        flex-direction: column;
+        height: auto;
+        
     }
     .final_content{
         flex-direction: column;
@@ -65,7 +62,7 @@
     }
     .p-final{
         font-size: 22px;
-        align-items: center;
+        text-align: center;
         margin: 10px 40px;
     }
     div{
