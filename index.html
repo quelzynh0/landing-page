@@ -2,34 +2,35 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+      <link rel="stylesheet" type="text/css" href="./styles/media.css" />
       <title>Qatar 2022</title>
       <link rel="icon" type="image/x-icon" href="images/favicon.png">
    </head>
    <body>
       <div class='menu-container'>
          <div class='menu'>
-            <img src="images/logo.png" width="105" height="50">
+            <img class="img-logo" src="images/logo.png" width="105" height="50">
             <div class="links">
-               <div class='link_one'>Inscrever-se</div>
-               <div class='link_two'>Galeria</div>
-               <div class='link_three'>Sobre</div>
+               <a href="#final" class='link-item'>Inscrever-se</a>
+               <a href="#quote" class='link-item'>Galeria</a>
+               <a href="#header" class='link-item'>Sobre</a>
             </div>
          </div>
       </div>
       <div class='header-container'>
-         <div class='header'>
+         <div id='header' class='header'>
             <div class='header_one'>
-               <div class='header_one_one'>Essa final de copa do mundo<br>foi incrivel</div>
-               <div class='header_one_two'>Este site mostra como ficou a premiação da copa do mundo 2022.<br>
-                  A copa do mundo ocorreu pela primeira vez no pais do QATAR <br>
+               <div class='header_one_one'>Essa final de copa do mundo <br>foi incrivel</div>
+               <div class='header_one_two'>Este site mostra como ficou a premiação da copa do mundo 2022.
+                  A copa do mundo ocorreu pela primeira vez no pais do QATAR 
                   e pela ultima vez no molde convencional com 32 times.<br>
-                  <button class="header_one_btn">Inscrever-se</button>
+                  <a href="#final" class="header_one_btn">Inscrever-se</a>
                </div>
             </div>
             <div class='header_two'>
                <div class='header_two_two'>
-                  <img src="images/qatar.png" width="400" height="250">
+                  <img class="img-qatar" src="images/qatar.png" width="400" height="250">
                </div>
             </div>
          </div>
@@ -67,10 +68,10 @@
             </div>
          </div>
       </div>
-      <div class='quote'>
+      <div id='quote' class='quote'>
          <div class="quote_information">
             <div clas="img_campeao">
-               <img src="images/campeao.jpg" class="img_bandeira" width="360" height="450">
+               <img class="argentina-campeao" src="images/campeao.jpg" class="img_bandeira" width="360" height="450">
             </div>
             <div clas="txt_campeao">
                <p class="p_campeao1">É real. Aconteceu. Lionel Messi e<br>
@@ -81,7 +82,7 @@
             </div>
          </div>
       </div>
-      <div class='final'>
+      <div id="final" class='final'>
          <div class='final_div'>
             <div class="final_content">
                <div>

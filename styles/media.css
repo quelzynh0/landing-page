@@ -1,0 +1,75 @@
+@media screen and (max-width: 900px){
+    .links{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        padding-top: 30px;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-qatar{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .quote{
+        align-items: center;
+        flex-direction: column;
+    }
+    .quote_information{
+        align-items: center;
+        flex-direction: column;
+        max-width: 500px;
+        
+    }
+    .p_campeao1{
+        font-size: 25px;
+    }
+    .header_one{
+        margin: 20px;
+    }
+    .header_two{
+        display: none;
+    }
+     .header_one_one{
+        margin: 10px 2px;
+        font-size: 38px;
+    }
+    .texto_informacoes{
+        margin-left: -20px;
+    }
+    .segunda_informacao{
+        display: none;
+    }
+    .terceira_informacao{
+        display: none;
+    }
+    .quarta_informacao{
+        display: none;
+    }
+    .final_content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+    }
+    .h1-final{
+        display: none;
+        align-items: center;
+        margin: 10px 40px;
+        font-size: 20px;
+    }
+    .p-final{
+        font-size: 22px;
+        align-items: center;
+        margin: 10px 40px;
+    }
+    div{
+        align-items: center;
+        
+    }
+}
